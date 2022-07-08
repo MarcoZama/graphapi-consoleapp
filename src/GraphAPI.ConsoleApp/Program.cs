@@ -18,6 +18,6 @@ var serviceProvider = new ServiceCollection()
 
 var service = new GraphAPIService(graphApiConfig);
 
-var result = await service.CheckGroupByUserAsync("554b0cf3-7266-471c-ba1d-c698aee5381f", "07d76e5f-8084-47b9-91e5-834e662417f9");
+var result = await service.CheckGroupByGroupIdAndUserAsync("554b0cf3-7266-471c-ba1d-c698aee5381f", "07d76e5f-8084-47b9-91e5-834e662417f9");
 
 Console.WriteLine(result);

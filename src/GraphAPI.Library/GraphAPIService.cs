@@ -40,7 +40,7 @@ namespace GraphAPI.Library
 
             }));
         }
-        public async Task<bool> CheckGroupByUserAsync(string groupId, string userObjectId)
+        public async Task<bool> CheckGroupByGroupIdAndUserAsync(string groupId, string userObjectId)
         {
             var securityEnabledOnly = false;
 

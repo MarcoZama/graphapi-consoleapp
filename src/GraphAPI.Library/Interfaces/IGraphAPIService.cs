@@ -10,7 +10,7 @@ namespace GraphAPI.Library.Interfaces
     public interface IGraphAPIService
     {
    
-        Task<bool> CheckGroupByUserAsync(string groupId, string userObjectId);
+        Task<bool> CheckGroupByGroupIdAndUserAsync(string groupId, string userObjectId);
     
     }
 }
